@@ -11,7 +11,7 @@ for line in fileinput.input():
 
         # Make new filename
         fname = line.rstrip().partition(">")[2]
-        fname = "%s.fasta" % fname
+        fname = "%s.fna" % fname
 
         # Open new file
         f = open(fname, "w")
