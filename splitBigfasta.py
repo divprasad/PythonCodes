@@ -11,7 +11,7 @@ k=sys.argv[2]
 count=1
 num=1
 for seq_record in SeqIO.parse(file1, "fasta"):  #iterates through all the sequences in each file
-    if count % k == 0:
+    if count % int(k) == 0:
         num=num+1
     my_file="try_" +str(num)
     f1= open(my_file, "a")
