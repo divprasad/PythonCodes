@@ -16,7 +16,7 @@ FL="kmers.tsv"
 kmer_file = open(FL, "w")
 for x in range (1,km+1):
     kmers = [''.join(p) for p in itertools.product(bases, repeat=x)]
-    revcompl = lambda y: ''.join([{'A':'T','C':'G','G':'C','T':'A'}[B] for B in y][::-1])
+    revcompl = lambda y: ''.join([{'A':'T','G':'C','C':'G','T':'A'}[B] for B in y][::-1])
     #reverse the sequence # via http://stackoverflow.com/questions/19570800/reverse-complement-dna
     del kmer_list[:]
     for k in kmers:
@@ -25,4 +25,8 @@ for x in range (1,km+1):
             kmer_list.append(k)
     newline='\t'.join(str(v) for v in kmer_list)
     print>>kmer_file, newline
+    FL1=str(x)+"mer.tsv"
+    kmer_line = open(FL1, "w")
+    print>>kmer_line, newline
+    kmer_line.close()
 kmer_file.close()
