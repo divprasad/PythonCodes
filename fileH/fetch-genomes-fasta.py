@@ -28,7 +28,7 @@ for id in open(sys.argv[1]):
 
     try :
         open(gbk_out_file, "w").write(urllib2.urlopen(url_template % id).read())
-    except IOError:
+    except:
         print>>thefile, id
 
     print "Done"
