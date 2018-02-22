@@ -5,6 +5,9 @@ import os
 import sys
 import time
 
+import traceback
+import logging
+
 if len(sys.argv) != 3:
     print "USAGE: fetch_genome.py <genome_id_list> <out_dir>"
     sys.exit(1)
@@ -28,7 +31,8 @@ for id in open(sys.argv[1]):
 
     try :
         open(gbk_out_file, "w").write(urllib2.urlopen(url_template % id).read())
-    except:
+    except Exception as e:
+        logging.error(traceback.format_exc())
         print>>thefile, id
 
     print "Done"
