@@ -3,7 +3,7 @@ use strict;
 
 my $usage = "$0 [\"Species name\" / infile.txt]\n";
 
-my $taxdir = "/hosts/linuxhome/embryo/dutilh2/tax_20150123";
+my $taxdir = "/hosts/linuxhome/embryo/dutilh2/tax_20170420";
 #$taxdir = "/home/dutilh";
 
 # check number of arguments
@@ -65,4 +65,3 @@ sub lineage {
 		$node = $parent{$node};
 		$lineage .= ",$node"; }
 	return ($lineage); }
-
