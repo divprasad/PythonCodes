@@ -3,4 +3,8 @@
   {"label":"UniProt","y":52},
   {"label":"PlaqueAssays","y":197},
   {"label":"CRISPR","y":21},
-  {"label":"EncrichedContact","y":8}]
+  {"label":"EncrichedContact","y":8},
+  {"label":"ViralTagging","y":1074},
+  {"label":"VirSorter","y":0},
+  {"label":"Blastn","y":0},
+  {"label":"tRNAs","y":0}]
