@@ -1,12 +1,12 @@
-1074    CRISPR-I       		Computational Prediction
- 191    Literature		Experimental Evidence	
-2360    RefSeq			Experimental Evidence
-  52    UniProt			Experimental Evidence
- 197    plaque assays		Experimental Evidence
-11478   tRNAs			Computational Prediction
-  21 	CRISPR-II		Experimental Evidence	
-   8 	ENRICHED CONTACT	Experimental Evidence
-3290 	Tetra			Computational Prediction
-12341 	VirSorter		Computational Prediction
-1699 	blastn			Computational Prediction
-  26 	viral tagging 		Experimental Evidence
+  21 CRISPR
+   8 ENRICHED CONTACT
+3290 Tetra
+12341 VirSorter
+1699 blastn
+  26 viral tagging 
+1074 CRISPR
+ 191 Literature
+2360 RefSeq
+  52 UniProt
+ 197 plaque assays
+11478 tRNAs
