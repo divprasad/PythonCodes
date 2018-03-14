@@ -1,0 +1,11 @@
+[{"label":"Literature","x":191},
+  {"label":"RefSeq","x":2360},
+  {"label":"UniProt","x":52},
+  {"label":"PlaqueAssaxs","x":197},
+  {"label":"CRISPR","x":21},
+  {"label":"EncrichedContact","x":8},
+  {"label":"ViralTagging","x":1074},
+  {"label":"Tetra","x":0},
+  {"label":"VirSorter","x":0},
+  {"label":"Blastn","x":0},
+  {"label":"tRNAs","x":0}]
