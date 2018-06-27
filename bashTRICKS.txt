@@ -1,3 +1,6 @@
+#handy bash stuff
+---xxx---
 #Copy list of files
 $I have a list of files separated by spaces in a file list.txt. I'd like to copy them to a new folder.
 %xargs -a list.txt cp -t new_folder
+---xxx---
