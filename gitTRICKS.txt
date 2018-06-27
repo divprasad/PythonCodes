@@ -1,0 +1,13 @@
+#handy git stuff
+---xxx---
+$remove existing remote, and add a new one
+
+#First, let's find out what your remote's name was:
+%git remote show origin
+
+#Neato, now let's get rid of it.
+%git remote rm origin
+
+#To add a new remote:
+%git remote add origin path_to_new_remote
+---xxx---
