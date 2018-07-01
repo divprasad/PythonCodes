@@ -10,4 +10,7 @@ $remove existing remote, and add a new one
 
 #To add a new remote:
 %git remote add origin path_to_new_remote
+
+#taken from
+%https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 ---xxx---
