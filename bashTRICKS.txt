@@ -7,3 +7,6 @@ $I have a list of files separated by spaces in a file list.txt. I'd like to copy
 #grep on a particular column , exact match
 %cat sorted_score.spacer.Blast.out.Big | awk '{if ($16 == "100") print $0;}' > filter100.sorted_score.spacer.Blast.out.Big
 ---xxx---
+#how do I add a string after each line in a file?
+%sed -e 's/$/string after each line/' -i filename
+---xxx---
