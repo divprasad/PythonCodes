@@ -13,6 +13,4 @@ with open(FList, 'r') as fread:
         lin1=line.split('/')[1]
         shutil.copyfile(src+line,dst+lin1)
 
-
-
-#python ~divyae/SCRIPTS/fileH/copyFROMpat2local.py add.notVS.fna.host_SelcOff60.tsv > error.log
+#date;python ~divyae/SCRIPTS/fileH/copyFROMpat2local.py add.notVS.fna.host_SelcOff60.tsv > error.log;date;date
