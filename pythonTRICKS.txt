@@ -1,1 +1,6 @@
 #handy python stuff
+---xxx---
+$ how to save a file at a different location than the current folder?
+%with open(os.path.join('/path/to/Documents',completeName), "w") as file1:
+---xxx---
+
