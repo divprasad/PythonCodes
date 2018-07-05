@@ -21,7 +21,7 @@ def sequence_cleaner(fasta_file, min_length=0, por_n=100):
        # If it is already in the hash table, we're just gonna concatenate the ID
        # of the current sequence to another one that is already in the hash table
             else:
-                sequences[sequence] += "_" + seq_record.id
+                sequences[sequence] += "*" + seq_record.id
 
 
     # Write the clean sequences
